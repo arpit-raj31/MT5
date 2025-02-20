@@ -57,7 +57,7 @@ market_data = {
 }
 
 def fetch_current_price(auth_token, symbol):
-    url = f"https://mt-client-api-v1.london.agiliumtrade.ai/users/current/accounts/4993de0c-5ca7-401e-a978-1321480e4673/symbols/{symbol}/current-price"
+    url = f"https://mt-client-api-v1.london.agiliumtrade.ai/users/current/accounts/214e3d5c-32e2-476b-a15a-578d139ddb38/symbols/{symbol}/current-price"
     headers = {
         "Accept": "application/json",
         "auth-token": auth_token
